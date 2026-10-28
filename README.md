@@ -1,17 +1,10 @@
-# medicine_app_1
+# Smart Medicine Monitor
 
-A new Flutter project.
+Flutter mobile app for managing medicine schedules and viewing device events from a smart medicine dispenser. Communicates with a FastAPI backend.
 
-## Getting Started
+## Run
+1. Install Flutter
+2. flutter pub get
+3. flutter run
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Set `useMockData = false` and update `apiBase` in `lib/main.dart` to connect to the backend.
